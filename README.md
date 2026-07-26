@@ -150,6 +150,3 @@ Para consultar una película concreta, editarla o eliminarla, se debe copiar su 
 
 Las capturas del arranque del servidor y de las peticiones realizadas correctamente con Insomnia se encuentran en la carpeta [`evidencias`](./evidencias/).
 
-## Autor
-
-Guillem Otzet López 

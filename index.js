@@ -17,7 +17,7 @@ connectDB();
 //Definimos el puerto
 const PORT = 8081;
 
-//-------RUTAS--------
+//RUTAS
 server.use("/api/movies", moviesRouter);
 server.use("/api/cinemas", cinemasRouter);
 

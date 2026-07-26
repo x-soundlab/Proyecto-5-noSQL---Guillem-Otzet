@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-express-movies",
+  "version": "1.0.0",
+  "description": "API de películas y cines con Express, MongoDB y Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed:movies": "node src/seeds/movies.seed.js",
+    "seed:cinemas": "node src/seeds/cinemas.seed.js",
+    "seed": "npm run seed:movies && npm run seed:cinemas"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "5.2.1",
+    "mongoose": "9.8.0"
+  }
+}
